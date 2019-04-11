@@ -1,0 +1,9 @@
+#!/bin/bash
+
+find -name "*.java" > sources.txt
+
+mkdir classesCompiladas
+
+javac -d classesCompiladas @sources.txt
+
+java -cp classesCompiladas scrabbleMVC.view.MenuInicial

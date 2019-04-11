@@ -1,0 +1,64 @@
+1.Introduccion
+
+Jugadores: de dos a cuatro.
+Dificultad: a partir de los 10 anyos; exige unas ciertas dotes de vocabulario.
+
+2. Objetivo
+
+Crear palabras interconectadas como si de un crucigrama se tratara y emplazarlas de tal manera sobre el tablero que arrojen la maxima puntuacion.
+
+3. Reglas de juego.
+
+
+Se coloca el tablero sobre la mesa. Las fichas son introducidas dentro de la bolsa. Cada jugador toma un raíl para ubicar sus fichas.
+El servidor tira la primera jugada
+
+Cada jugador toma siete fichas de la bolsa y las coloca sobre su atril. 
+Cada ficha tiene impresa, en una de sus caras, una letra y, en formato subindice, justo al lado de la letra, un numero que indica su valor en puntos.
+
+El primer jugador debe formar una palabra usando dos o mas letras, colocandola horizontalmente (las letras ubicadas de izquierda a derecha) o 
+verticalmente (en orden descendente) sobre el tablero, de manera que una de las letras este situada en el recuadro que tiene la estrella de ocho puntas en el centro. 
+Esta estrella es como una casilla de inicio y tiene el mismo efecto que la casilla que dobla la puntuacion de la palabra, es decir, 
+tras la primera tirada, el jugador puede doblar la puntuación obtenida.
+Por diseño el jugador que es servidor inicia.
+El calendario round robin de turnos se basa en la antiguedad de la conexion del cliente
+El turno pasa entonces a dicho jugador que puede: añadir una o mas letras a la palabra existente ampliandola, 
+formar una nueva palabra usando una letra de la existente (debe haber una interconexión), o ambas.
+ Las palabras pueden ser ampliadas por los extremos, es decir, con prefijos y sufijos, pero no pueden ser ampliadas desde el centro.
+
+Existen dos fichas completamente blancas, sin ninguna letra impresa, que son como comodines y que pueden ser usadas como la letra que se desee. 
+Una vez colocadas en el tablero, sin embargo, tienen siempre el valor por el que han puntuado.
+
+Hay 61 casillas-premio del tablero: 24 que doblan el valor de cada letra; 12  que triplican el valor de la letra; 15 que doblan el valor de la palabra,
+ y 8 que triplican el valor de la palabra. En el caso de conseguir una palabra que incluya la puntuación como letra y como palabra a la vez, se cuenta primero la puntuación de la letra y, después, la de la palabra.
+
+Si un jugador puede colocar sus siete fichas en el tablero en una misma jugada, consigue una prima de 50 puntos, 
+que se suma a la puntuación obtenida por las diferentes combinaciones arrojadas.
+Esta jugada es la llamada Scrabble
+
+Un jugador tambien puede pasar. Si tiene tres turnos sin tirar puede ser causa de fin de juego.
+
+El jugador que acaba de recibe su score, basado en el valor total de las fichas que ha bajado.
+Si ha añadido letras a una palabra ya existente, 
+suma el valor de la palabra entera, independiente mente de las letras que ya estuvieran emplazadas en el tablero.
+
+El jugador toma las fichas que le hacen falta para sumar siete de la bolsa y las coloca sobre su raíl.
+
+El siguientejugador debe, a continuacion, colocar una o más letras desde mano, para formar al menos una nueva palabra.
+
+
+
+4. Normas.
+
+*Se puede iniciar poniendo la cantidad de letras en orden horizontal o vertical en tanto se use la casilla del centro.
+*Esta prohibido formar las siguientes palabras: nombres propios o que normalmente empiezan con mayuscula, abreviaciones, 
+palabras escritas coloquialmente o palabras extranjeras que no hayan sido adoptadas por la lengua castellana.
+
+
+5.Fin
+
+Si un jugador paso 3 veces o si ya un jugador no tiene fichas en su poder y la bolsa de piezas se encuentra vacia se procede a buscar ganador. 
+La forma de calificar es el score total menos las fichas que aun tiene en su poder, es por eso que a veces da ganadores sorprendentes.
+
+
+
